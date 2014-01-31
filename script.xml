@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WinampAbstractionLayer version="0.7">
+ <scriptinfo>
+  <version>2.0</version> 
+  <name>Reverse Poppler</name> 
+  <comment>Reverse the Function of the Poppler</comment> 
+  <author>DrDaMour</author> 
+  <email>damour@msu.edu</email> 
+  <homepage>http://www.msu.edu/~damour/NowPlaying/</homepage> 
+  </scriptinfo>
+
+
+ <elements>
+
+   <bitmap id="bg" file="bg.png"/>
+   <bitmap id="abg" file="abg.png"/> 
+   <bitmap id="mlayer" file="mlayer.png"/>  
+   <bitmap id="resizer" file="resizer.png"/>
+   <bitmap id="sliderbox" file="sliderbox.png"/>
+   <bitmap id="sliderbg" file="sliderbg.png"/>
+   <bitmap id="slidethumb" file="sliderthumb.png"/>
+ </elements>
+
+<container id="rpbackup" default_visible="0">
+<layout id="normal">
+
+  <wasabi:button       id="rpback.button" x="0" y="0" h="0" w="0"  relath="0" relatw="0"/>
+
+</layout>
+</container>
+
+  <script file="reversepoppler.maki" />
+  </WinampAbstractionLayer>
